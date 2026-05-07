@@ -169,7 +169,7 @@ Open notebooks in the `notebooks/` folder and run them sequentially (01 → 04).
 
 ## 👤 Author
 
-**Papa Kwadwo Bona Owusu (Digi)**  
+**Papa Kwadwo Bona Owusu**  
 Data Scientist | ML Engineer  
 Co-Founder & CTO, DigiTech Edge Solutions  
 
