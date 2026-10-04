@@ -74,27 +74,23 @@ All data used in this project is **publicly available at no cost**.
 
 ---
 
-## 🔍 Analysis Highlights
+## 🔍 Analysis Focus
+
+The notebooks are the source of record; this README does not assert headline statistics. Run them to reproduce the figures.
 
 ### 1. Macro Lending Trends
-- UK consumer credit grew steadily pre-pandemic, contracted sharply in 2020, then rebounded
-- Credit card debt recovery lagged personal loan recovery by ~8 months
-- Real interest burden (adjusted for inflation) hit a 15-year high in 2023
+- UK consumer credit over time, including the 2020 contraction and recovery
 
 ### 2. Borrower Profiles
-- The 25–34 age group carries the highest unsecured debt-to-income ratio
-- Low-income borrowers (bottom quintile) have 3.4× higher utilisation rates than top quintile
-- Self-employed borrowers are systematically underserved despite comparable income levels
+- Utilisation and debt patterns by age band and income group in the public borrower data
 
 ### 3. Default Risk Signals
-- Revolving utilisation rate >75% is the single strongest predictor of 90-day delinquency
-- Borrowers with 3+ hard credit enquiries in 6 months show 2.1× baseline default probability
-- Age and number of dependants have non-linear relationships with risk
+- Which borrower features (e.g. revolving utilisation, past delinquency, credit enquiries) are most associated with 90-day delinquency
 
 ### 4. Credit Exclusion
-- ~11 million UK adults are estimated to have thin or no credit files
-- There is a measurable "digital exclusion" effect: those without online banking access receive fewer credit offers at higher rates
-- Geographic clustering of credit exclusion correlates strongly with areas of high unemployment
+- Indicators of thin or no credit files, using the public sources listed above
+
+> Note: the Kaggle borrower dataset has no regional field, so any regional analysis relies on separate public sources.
 
 ---
 
@@ -103,7 +99,6 @@ All data used in this project is **publicly available at no cost**.
 > *Charts generated in notebooks — see `outputs/figures/` after running notebooks*
 
 - 📉 UK consumer credit outstanding (2014–2024) — line chart
-- 🗺️ Credit exclusion by UK region — choropleth map
 - 🔥 Correlation heatmap — borrower features vs. default risk
 - 📊 Default rate by credit utilisation bucket — bar chart
 - 🧮 Debt-to-income distribution by age band — violin plot
@@ -171,7 +166,7 @@ Open notebooks in the `notebooks/` folder and run them sequentially (01 → 04).
 
 **Papa Kwadwo Bona Owusu**  
 Data Scientist | ML Engineer  
-Co-Founder & CTO, DigiTech Edge Solutions  
+Founder & CEO, DigiTech Edge Solutions  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN)
 [![GitHub](https://img.shields.io/badge/GitHub-Papa--13-black?logo=github)](https://github.com/Papa-13)
